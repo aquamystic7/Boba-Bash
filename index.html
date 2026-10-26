@@ -7,28 +7,170 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Horror Movies</h1>
-    <h1>1. It </h1>
-      <p>In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster,
-         which disguises itself as a clown and preys on the children of Derry, their small Maine town.</p>
-    <img src="images/It.jpg" alt="It">
-    <h1> 2. His House </h1>
-    <p>His House (2020) is a folk horror film that tops Rotten Tomatoes' all-time horror list with a perfect 100% Tomatometer score.</p>
-    <img src="images/His.png" alt="His House">
-    <h1> 3. The Conjuring </h1>
-    <p>The Conjuring (2013) is a supernatural horror film that follows paranormal investigators Ed and Lorraine Warren as they help a family terrorized by a dark presence in their farmhouse.</p>
-    <img src="images/img.jpg" alt="The Conjuring">
-    <h1> 4. Under the Shadow </h1>
-    <p>Under the Shadow (2016) is a Iranian horror film that follows a woman who becomes convinced that her daughter is being haunted by a malevolent spirit.</p>
-    <img src="images/under.png" alt="Under the Shadow">
-    <h1> 5. Perfect Blue </h1>
-    <p>Perfect Blue (1997) is a psychological horror film that follows a pop singer who becomes obsessed with her own identity and reality.</p>
-    <img src="images/good.png" alt="Perfect Blue">
-    <h1> 6. The Exorcist </h1>
-    <p>The Exorcist (1973) is a supernatural horror film that follows the story of a young girl who is possessed by a demonic entity.</p>
-    <img src="images/now.png" alt="The Exorcist">
-    <h1> 7. The Witch, Longlegs </h1>
-    <p>The Witch (2015) is a horror film that follows a Puritan family in 1630s New England who are torn apart by the forces of evil.</p>
-    <img src="images/Then.png" alt="The Witch">
+    <i><h1> Horror Movies </h1></i>
+    <div class="movie-container">
+        <article class="movie-card">
+        <a href="#it">
+            <img src="images/It.jpg" alt="It" class="poster">
+        </a>
+            <div class="movie-info">
+                <h2> IT 2017 </h2>
+            </div>
+        </article>
+    <article class="movie-card">
+        <a href="#his-house">
+        <img src="images/His.png" alt="His House" class="poster">
+        </a>
+        <div class="movie-info">
+            <h2> His House 2020 </h2>
+        </div>
+    </article>
+
+    <article class="movie-card">
+        <a href="#the-conjuring">
+        <img src="images/img.jpg" alt="The Conjuring" class="poster">
+        </a>
+        <div class="movie-info">
+            <h2> The Conjuring 2013 </h2>
+        </div>
+    </article>
+    <article class="movie-card">
+        <a href="#under-the-shadow">
+        <img src="images/under.png" alt="Under the Shadow" class="poster">
+        </a>
+        <div class="movie-info">
+            <h2> Under the Shadow 2016 </h2>
+        </div>
+    </article>
+    <article class="movie-card">
+        <a href="#perfect-blue">
+        <img src="images/good.png" alt="Perfect Blue" class="poster">
+        </a>
+        <div class="movie-info">
+            <h2> Perfect Blue 1997 </h2>
+        </div>
+    </article>
+    <article class="movie-card">
+        <a href="#the-exorcist">
+        <img src="images/now.png" alt="The Exorcist" class="poster">
+        </a>
+        <div class="movie-info">
+            <h2> The Exorcist 1973 </h2>
+        </div>
+    </article>
+    <article class="movie-card">
+        <a href="#the-witch">
+        <img src="images/Then.png" alt="The Witch" class="poster">
+        </a>
+        <div class="movie-info">
+            <h2> The Witch 2015 </h2>
+        </div>
+    </article>
+    <article class="movie-card">
+        <a href="#halloween">
+        <img src="images/hallo.jpg" alt="Halloween" class="poster">
+        </a>
+        <div class="movie-info">
+            <h2> Halloween 1978 </h2>
+        </div>
+    </article>
+    <article class="movie-card">
+        <a href="#tigers-are-not-afraid">
+        <img src="images/tigers.png" alt="Tigers Are Not Afraid" class="poster">
+        </a>
+        <div class="movie-info">
+            <h2> Tigers Are Not Afraid 2017 </h2>
+        </div>
+    </article>
+    <article class="movie-card">
+        <a href="#nosferatu">
+        <img src="images/nos.jpg" alt="Nosferatu" class="poster">
+        </a>
+        <div class="movie-info">
+            <h2> Nosferatu 1922 </h2>
+        </div>
+    </article>
+    </div>
+
+    <div id="it" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/It.jpg" alt="It" class="popup-poster">
+            <h2> IT 2017 </h2>
+            <p>In the town of Derry, Maine, seven children known as "The Losers Club" are terrorized by a shape-shifting entity that primarily appears in the form of Pennywise the Dancing Clown. The group must confront their deepest fears to defeat the evil force that has haunted their town for generations.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
+    <div id="his-house" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/His.png" alt="His House" class="popup-poster">
+            <h2> His House 2020 </h2>
+            <p>A refugee couple from South Sudan struggles to adjust to their new life in England, but they soon discover that their new home harbors a sinister presence that threatens to consume them.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
+    <div id="the-conjuring" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/img.jpg" alt="The Conjuring" class="popup-poster">
+            <h2> The Conjuring 2013 </h2>
+            <p>Based on true events, paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. As they uncover the horrifying history of the house, they must confront a powerful evil force.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
+    <div id="under-the-shadow" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/under.png" alt="Under The Shadow" class="popup-poster">
+            <h2> Under The Shadow 2017 </h2>
+            <p>Set in Tehran during the 1980s, a mother and daughter are haunted by a mysterious evil force that has infiltrated their home. As the war rages outside, they must confront their fears and the supernatural entity that threatens to destroy them.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
+    <div id="perfect-blue" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/good.png" alt="Perfect Blue" class="popup-poster">
+            <h2> Perfect Blue 1997 </h2>
+            <p>A retired pop singer turned actress, Mima Kirigoe, finds herself stalked by an obsessed fan and plagued by a series of disturbing events that blur the line between reality and illusion. As her mental state deteriorates, she must confront the dark side of fame and identity.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
+    <div id="the-exorcist" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/now.png" alt="The Exorcist" class="popup-poster">
+            <h2> The Exorcist 1973 </h2>
+            <p>When a young girl named Regan becomes possessed by a demonic entity, her mother seeks the help of two priests to perform an exorcism. As the battle between good and evil unfolds, the priests must confront their own doubts and fears in order to save Regan's soul.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
+    <div id="the-witch" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/Then.png" alt="The Witch" class="popup-poster">
+            <h2> The Witch 2015 </h2>
+            <p>In 1630s New England, a Puritan family is torn apart by religious fanaticism and supernatural forces. As they struggle to survive in the wilderness, they must confront their own fears and the dark presence that lurks in the woods.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
+    <div id="halloween" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/hallo.jpg" alt="Halloween" class="popup-poster">
+            <h2> Halloween 1978 </h2>
+            <p>On Halloween night, a masked killer named Michael Myers escapes from a mental institution and returns to his hometown of Haddonfield, Illinois. As he stalks and murders teenagers, a babysitter named Laurie Strode must confront her fears and fight for survival.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
+    <div id="tigers-are-not-afraid" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/tigers.png" alt="Tigers Are Not Afraid" class="popup-poster">
+            <h2> Tigers Are Not Afraid 2017 </h2>
+            <p>In a Mexican town plagued by drug cartel violence, a group of orphaned children must navigate a dangerous world filled with ghosts and supernatural forces. As they struggle to survive, they must confront their own fears and the harsh realities of their environment.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
+    <div id="nosferatu" class="popup-overlay">
+        <div class="popup-content">
+            <img src="images/nos.jpg" alt="Nosferatu" class="popup-poster">
+            <h2> Nosferatu 1922 </h2>
+            <p>A silent horror film that tells the story of Count Orlok, a vampire who terrorizes a small German town. As he preys on the townspeople, a young man named Hutter must confront the evil force and find a way to stop him before it's too late.</p>
+            <a href="#" class="close-btn">&times;</a>
+        </div>
+    </div>
 </body>
 </html>
